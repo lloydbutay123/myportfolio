@@ -1,0 +1,67 @@
+@font-face {
+    font-family: myFont;
+    src: url(./Poppins/Poppins-SemiBold.ttf);
+}
+
+.navbar {
+    border-bottom: 2px solid gray;
+}
+.navbar > .container-fluid {
+    padding: 0
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-brand > span {
+    color: #713EDA;
+}
+.main {
+    background: url(./images/bg-image.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+.main > .container {
+    margin-left: 10%;
+}
+
+#intro1 > h1{
+    font-family: myFont;
+    font-size: 60px;
+}
+#intro1 > h6{
+    font-size: 25px ;
+    color: #713EDA;
+}
+#intro1 > input{
+    color: white;
+    padding: 5px 10%;
+    background-color: #713EDA;
+}
+a:hover:not(.navbar-brand) {
+    color: white;
+    background-color: #713EDA ;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#intro1 > input:hover{
+    background-color: #31245C;
+}
+
+@media screen and (max-width:576px) {
+    .main {
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main > .container {
+        margin-left: 0;
+        padding:0;
+    }
+    
+}
+
