@@ -5,9 +5,10 @@
 
 .navbar {
     border-bottom: 2px solid gray;
+
 }
 .navbar > .container-fluid {
-    padding: 0
+    padding: 0;
 }
 .navbar-brand {
     font-weight: bold;
@@ -50,6 +51,72 @@ a:hover:not(.navbar-brand) {
     background-color: #31245C;
 }
 
+/* SECOND SECTION */
+
+.about {
+    position: static;
+    background-color: #31245C;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#img-education {
+    height: 50vh;
+    border-radius: 30px;
+
+}
+.about > .container {
+    position: relative;
+    top: 25vh;
+}
+div > h3 {
+    color: #713EDA;
+    text-align: start;
+}
+#educ-caption {
+    text-align: start;
+    color: white;
+    padding: 0;
+}
+ul > li {
+    list-style-type: none;
+}
+ul > hr {
+    border: 2px solid #713EDA;
+}
+
+/* TRAININGS SECTION */
+
+.trainings {
+    background-color: white ;
+    width: 100%;
+    height: 100vh;
+}
+.card-body > h4 {
+    font-size: 12pt;
+    text-align: center;
+    color: white;
+}
+.card-body > p{
+    font-size: 9pt;
+    text-align: center;
+    color: white;
+}
+.trainings > .container {
+    position: relative;
+    top: 20vh;
+    width: 100%;
+}
+.trainings > h1 {
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    color: #713EDA;
+}
+.card-body {
+    background-color: #31245C;
+}
+
 @media screen and (max-width:576px) {
     .main {
  
@@ -62,6 +129,39 @@ a:hover:not(.navbar-brand) {
         margin-left: 0;
         padding:0;
     }
-    
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+  
+    }
+    #img-education {
+        height: 40vh;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    #educ-caption {
+        text-align: center;
+        color: white;
+        padding: 5px;
+        margin: 0;
+    }
+    .about > .container {
+        position: relative;
+       top: 0;
+    }
+    div > ul {
+        padding-left: 0;
+
+    }
+    div > h3 {
+        text-align: center;
+    }
+    .row > * {
+        padding: 0;
+    }
 }
+
+
 

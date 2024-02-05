@@ -15,16 +15,19 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portsgfdggfolio <span>2024</span></a>
+        <a class="navbar-brand" href="#">Portfolio <span>2024</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,7 +40,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
+                  <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link"><img src="./Assets/globe.svg"></a>
@@ -60,19 +63,92 @@
   <section class="main">
     <div class="container py-5">
       <div class="row py-5 mr-2">
-        <div class="col" id="intro1">
+        <div class="col-md-12" id="intro1">
           <h6>Hello Everyone, I'am</h6>
           <h1>John Lloyd</h1>
           <h1>Butay</h1>
           <input type="button" class="btn mb-2 btn-block" value="Web Developer"></input><br>
-          <input type="button" class="btn" value="Contact Me"></input>
+          <input type="button" class="btn" value="Resume"></input>
         </div>
       </div>
     </div>
   </section>
-  
-    
 
+  <section role="region" class="about" aria-labelledby="about" id="about">
+    <div class="container">
+      <div class="row text-center ">
+           <div class="col-md-5 ">
+               <img class="" src="./Assets/images/img-education.jpg" id="img-education">
+           </div>
+           <div class="col-md-7" id="educ-caption">
+            <h3>EDUCATION</h3>
+               <ul>
+                <li>Mariano Marcos State University
+                  <h5>Bachelor of Science in Computer Engineering</h5>
+                  <p>2018-2022</p>
+                </li>
+                <hr>
+                <li>AMA Computer College Laoag City
+                  <h5>Information and Communications Tecnology</h5>
+                  <p>2016-2018</p>
+                </li>
+               </ul>
+           </div>
+      </div>       
+   </div>
+
+   
+  </section>
+
+  <section class="trainings">
+    <h1>TRAININGS AND CERTIFICATIONS</h1>
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md col-lg-3">
+          <div class="card h-100">
+            <img src="./Assets/images/freeCodeCamp.png" />
+            <div class="card-body">
+              <h4>Responsive Web Design</h4>
+              <p>freeCodeCamp</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md col-lg-3">
+          <div class="card h-100">
+            <img src="https://links-truecertificates.s3.ap-south-1.amazonaws.com/published/2024-32-27/X3KHD5C3WA.png" />
+            <div class="card-body">
+              <h4>E-commerce Store: Introduction to Full-Stack Development</h4>
+              <p>Xaltius Pte. Ltd.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md col-lg-3">
+          <div class="card h-100">
+            <img src="./Assets/images/dukecertificate.png" />
+            <div class="card-body">
+              <h4>Programming foundations with Javascript, Html, CSS</h4>
+              <p>Duke University, Coursera</p>
+            </div>
+          </div>
+
+        </div>  
+        <div class="col-12 col-md col-lg-3">
+          <div class="card h-100">
+            <img src="./Assets/images/uccertificate.png" />
+            <div class="card-body">
+              <h4>C for Everyone: Programming fundamentals</h4>
+              <p>University of California, Santa Cruz, Coursera</p>
+            </div>
+          </div>
+
+        </div>  
+      </div>
+    </div>
+
+  </section>
+  
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
