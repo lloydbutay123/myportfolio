@@ -32,6 +32,13 @@
 .main-img > img {
     width: 100%;  
 }
+.section-title {
+    text-transform: uppercase;
+}
+
+.trainings-item {
+    margin-bottom: 10px;
+}
 
 
 /* ABOUT SECTION */
@@ -49,6 +56,30 @@
     color: #713EDA;
 }
 .about-text {
+    color: white;
+}
+
+/* SERVICES SECTION */
+
+.icon {
+
+    width: auto;
+    height: auto ;
+    background-color: white;
+    font-size: 3rem;
+    border-radius: 10px;
+    color: #713EDA;
+}
+.services-item {
+    background-color: #31245C;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 4rem;
+}
+.services-item > h3 {
+    color: white;
+}
+.services-item > p {
     color: white;
 }
 
