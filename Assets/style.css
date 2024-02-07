@@ -19,7 +19,7 @@
     background-color: #713EDA;
     border-radius: 10px;
 }
-.navbar-nav > li > a:hover {
+.nav-link:hover {
     color: white;
 
 }
@@ -155,7 +155,6 @@ a {
         align-content: center;
         justify-content: center;
         text-align: center;
-
     }
 }
 
