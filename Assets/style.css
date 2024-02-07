@@ -19,8 +19,16 @@
     background-color: #713EDA;
     border-radius: 10px;
 }
+.navbar-nav > li > a:hover {
+    color: white;
+
+}
 
 /* MAIN SECTION  */
+
+.section-title {
+    text-transform: uppercase;
+}
 
 .main-text > .btn {
     background-color: #713EDA;
@@ -29,16 +37,30 @@
 .main-text > .first-text {
     color: #713EDA;
 }
+.main-text > .btn:hover {
+    background-color:#31245C;
+    color: white;
+
+}
 .main-img > img {
     width: 100%;  
 }
-.section-title {
-    text-transform: uppercase;
+a {
+    cursor: pointer;
 }
+
+
+
+/* TRAININGS SECTION */
+
 
 .trainings-item {
     margin-bottom: 10px;
 }
+.trainings-item {
+    font-size: 9px;
+}
+
 
 
 /* ABOUT SECTION */
@@ -64,8 +86,11 @@
 .sections-link {
     text-decoration: none;
     color: #713EDA;
-
 }
+.trainings-title {
+    font-size: 9pt;
+}
+
 
 /* SERVICES SECTION */
 
@@ -91,6 +116,23 @@
     color: white;
 }
 
+
+/* CONTACT SECTION */
+
+.contact-item > .icon {
+    font-size: 12px;
+}
+.contact-item > .contact-details > h4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.contact-item > .contact-details > p {
+    font-size: 10px;
+}
+#name, #email, #subject, #message {
+    font-size: 12px;
+}
+
 @media screen and (max-width:768px) {
     .main {
         display: flex;
@@ -106,7 +148,15 @@
         justify-content: center;
         text-align: center;
     }
-    
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+
+    }
 }
 
 
