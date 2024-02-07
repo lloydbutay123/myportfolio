@@ -1,27 +1,34 @@
 /* NAVBAR SECTION */
 
+.navbar {
+    margin: 20px;
+    background-color:#713EDA;
+    border-radius: 10px;
+}
 .navbar-nav > li {
     display: flex;
     margin-left:10px;
     margin-right:10px;
     align-items: center;
 }
-.fa-phone-volume {
-    color: #713EDA;
+.nav-link > .fa-phone-volume {
+    color: white;
 }
 .fa-message {
-    color: #713EDA;
+    color: white;
 }
 .fa-link {
-    color: #713EDA;
+    color: white;
 }
 .nav-item:hover {
-    background-color: #713EDA;
+    background-color:#31245C;
     border-radius: 10px;
 }
-.nav-link:hover {
+.navbar-nav > li > a:hover {
     color: white;
-
+}
+.navbar-nav > li > a {
+    color: white;
 }
 
 /* MAIN SECTION  */
@@ -155,6 +162,7 @@ a {
         align-content: center;
         justify-content: center;
         text-align: center;
+
     }
 }
 
