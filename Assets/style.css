@@ -13,6 +13,7 @@
 }
 
 /* NAVBAR SECTION */
+
 .navbar {
     border-bottom: 1px solid gray;
 }
@@ -58,7 +59,6 @@ a {
 }
 
 
-
 /* TRAININGS SECTION */
 
 
@@ -101,8 +101,7 @@ hr.hr {
 .icon {
 
     width: auto;
-    height: auto ;
-    background-color: white;
+    height: auto;
     font-size: 3rem;
     border-radius: 10px;
     color: #5640fa;
@@ -116,28 +115,18 @@ hr.hr {
 
 /* CONTACT SECTION */
 
-.contact-item > .icon {
-    font-size: 12px;
-}
-.contact-item > .contact-details > h4 {
-    font-size: 12px;
-    font-weight: bold;
-}
-.contact-item > .contact-details > p {
-    font-size: 10px;
-}
-#name, #email, #subject, #message {
-    font-size: 12px;
-}
-.request-form {
+.contact-form {
+    background-color: #27CBCE;
     border-radius: 10px;
-    background-color: var(--request-form);
-    margin-bottom: 3em;
+    padding: 2rem;
 }
 
 .main-text > h1 {
     font-family: h2Font;
 
+}
+.form-control {
+    font-size: 12px;
 }
 
 p {
@@ -160,6 +149,68 @@ p {
     font-family: h2Font, sans-serif;  
     
 }
+.contact-form {
+    font-family: myFont, sans-serif;  
+}
+.contacts {
+    background-color: #713EDA;
+    border-radius: 10px;
+
+}
+.contact-item > .icon {
+    font-size: 40px;
+    color: black;
+}
+.contact-item {
+    background-color:#713EDA ;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 0;
+    height: 100%;
+}
+.map {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+.socials {
+    background-color: #5640fa;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.row { 
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+.row [class*='col']{
+    padding-left: 10px;
+    padding-right: 0;
+}
+.socials {
+    padding: 2em;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: h2Font;
+}
+h4 > span {
+    color: #27CBCE;
+}
+.socials-body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
 
 @media screen and (max-width:768px) {
     .main {
@@ -177,14 +228,6 @@ p {
         text-align: center;
     }
 
-    .contact-item {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        text-align: center;
-
-    }
 }
 
 
