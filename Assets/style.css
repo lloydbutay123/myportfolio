@@ -65,14 +65,15 @@ a {
 .trainings-item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
     background-color: var(--secondary20);
     padding: 1em 3em 3em;
-    gap: 2em;
+
 }
-.trainings-item {
-    font-size: 9px;
+.sections-link {
+    text-decoration: none;
+    color: #713EDA;
 }
+
 
 /* ABOUT SECTION */
 
@@ -89,14 +90,6 @@ hr.hr {
     border: 7px solid #27CBCE;
     border-radius: 5px;
   }
-
-/* TRAININGS SECTION */
-
-.sections-link {
-    text-decoration: none;
-    color: #713EDA;
-}
-
 
 /* SERVICES SECTION */
 
