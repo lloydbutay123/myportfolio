@@ -173,13 +173,13 @@ p {
 .map {
     border-radius: 10px;
     width: 100%;
-    height: 200px;
+    height: 250px;
 }
 .socials {
     background-color: #5640fa;
     border-radius: 10px;
     width: 100%;
-    height: 200px;
+    height: 250px;
 }
 
 .socials {
@@ -199,10 +199,34 @@ h4 > span {
     justify-content: center;
     
 }
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.explore-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.explore-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
-
-
-
+hr.footer {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 10%;
+    margin-top: 2em;
+}
+.underline {
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width:768px) {
@@ -226,7 +250,18 @@ h4 > span {
         justify-content: center;
         text-align: center;
     }
-
+    .socials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
