@@ -1,9 +1,20 @@
-/* NAVBAR SECTION */
+@font-face {
+    font-family: myFont ;
+    src: url(./Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: h2Font;
+    src: url(./Poppins/Poppins-Bold.ttf);
+}
+:root {
+    --secondary20 : hsl(247, 82%, 72%, 20%);
+    --primary1 : hsl(181, 68%, 48%, 20%);
+    --request-form : hsl(247, 75%, 5%, 5%);
+}
 
+/* NAVBAR SECTION */
 .navbar {
-    margin: 20px;
-    background-color:#713EDA;
-    border-radius: 10px;
+    border-bottom: 1px solid gray;
 }
 .navbar-nav > li {
     display: flex;
@@ -11,38 +22,28 @@
     margin-right:10px;
     align-items: center;
 }
-.nav-link > .fa-phone-volume {
-    color: white;
+.fa-phone-volume {
+    color: #5640fa;
 }
 .fa-message {
-    color: white;
+    color: #5640fa;
 }
 .fa-link {
-    color: white;
+    color: #5640fa;
 }
 .nav-item:hover {
-    background-color:#31245C;
+    background-color: #5640fa;
     border-radius: 10px;
-}
-.navbar-nav > li > a:hover {
-    color: white;
-}
-.navbar-nav > li > a {
-    color: white;
 }
 
 /* MAIN SECTION  */
 
-.section-title {
-    text-transform: uppercase;
-}
-
 .main-text > .btn {
-    background-color: #713EDA;
+    background-color: #27CBCE;
     color: white;
 }
 .main-text > .first-text {
-    color: #713EDA;
+    color: #27CBCE;
 }
 .main-text > .btn:hover {
     background-color:#31245C;
@@ -62,40 +63,38 @@ a {
 
 
 .trainings-item {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 10px;
+    background-color: var(--secondary20);
+    padding: 1em 3em 3em;
+    gap: 2em;
 }
 .trainings-item {
     font-size: 9px;
 }
 
-
-
 /* ABOUT SECTION */
 
-
-.about {
-    background-color: #31245C;
-}
 .about-img > img {
     width: 40%;
     border-radius: 20%;
     margin-bottom: 10%;
 }
-.section-title > h2 {
-    color: #713EDA;
-}
+
 .about-text {
-    color: white;
+    color:#713EDA;
 }
+hr.hr {
+    border: 7px solid #27CBCE;
+    border-radius: 5px;
+  }
 
 /* TRAININGS SECTION */
 
 .sections-link {
     text-decoration: none;
     color: #713EDA;
-}
-.trainings-title {
-    font-size: 9pt;
 }
 
 
@@ -108,21 +107,14 @@ a {
     background-color: white;
     font-size: 3rem;
     border-radius: 10px;
-    color: #713EDA;
+    color: #5640fa;
 }
 .services-item {
-    background-color: #31245C;
+    background-color: var(--primary1);
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 4rem;
 }
-.services-item > h3 {
-    color: white;
-}
-.services-item > p {
-    color: white;
-}
-
 
 /* CONTACT SECTION */
 
@@ -138,6 +130,37 @@ a {
 }
 #name, #email, #subject, #message {
     font-size: 12px;
+}
+.request-form {
+    border-radius: 10px;
+    background-color: var(--request-form);
+    margin-bottom: 3em;
+}
+
+.main-text > h1 {
+    font-family: h2Font;
+
+}
+
+p {
+    font-size: 12.8px;
+    font-family: myFont, sans-serif;  
+    color: black;
+}
+.section-title > h2 {
+    font-family: h2Font, sans-serif;  
+}
+.about-item > h6 {
+    font-family: h2Font, sans-serif;  
+    
+}
+.trainings-item > h6 {
+    font-family: h2Font, sans-serif;  
+    
+}
+.services-item > h6 {
+    font-family: h2Font, sans-serif;  
+    
 }
 
 @media screen and (max-width:768px) {
