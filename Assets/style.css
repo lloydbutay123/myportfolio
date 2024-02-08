@@ -176,13 +176,10 @@ p {
     height: 250px;
 }
 .socials {
-    background-color: #5640fa;
+    background-color: var(--secondary20);;
     border-radius: 10px;
     width: 100%;
     height: 250px;
-}
-
-.socials {
     padding: 2em;
 }
 .header {
@@ -207,7 +204,12 @@ h4 > span {
 }
 .explore-body {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+.explore-text {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     text-align: center;
 }
@@ -261,6 +263,11 @@ hr.footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .social-header {
+        display: flex;
+        justify-content: center;
+
     }
 
 }
