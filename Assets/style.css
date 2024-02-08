@@ -158,15 +158,17 @@ p {
 
 }
 .contact-item > .icon {
-    font-size: 40px;
+    font-size: 50px;
     color: black;
 }
 .contact-item {
     background-color:#713EDA ;
     border-radius: 10px;
-    padding: 2rem;
-    margin-bottom: 0;
+    padding: 1rem;
     height: 100%;
+}
+.contact-item > p {
+    font-size: 15px;
 }
 .map {
     border-radius: 10px;
@@ -218,6 +220,13 @@ h4 > span {
         justify-content: center;
         text-align: center;
     }
+    .contact-item {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
 
 }
 
