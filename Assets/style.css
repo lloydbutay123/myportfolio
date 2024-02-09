@@ -212,6 +212,7 @@ h4 > span {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    font-weight: bold;
 }
 .explore-links {
     display: flex;
