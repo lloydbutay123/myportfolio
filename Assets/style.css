@@ -14,8 +14,14 @@
 
 /* NAVBAR SECTION */
 
+.mylogo {
+    display: flex;
+    height: 50px;
+    width: 100%px;
+    position: relative;
+}
 .navbar {
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray; 
 }
 .navbar-nav > li {
     display: flex;
@@ -220,6 +226,7 @@ h4 > span {
     justify-content: space-around;
 }
 
+
 hr.footer {
     width: 100%;
     height: 1px;
@@ -252,7 +259,9 @@ hr.footer {
         align-content: center;
         justify-content: center;
         text-align: center;
+
     }
+    .contact-item > p, 
     .socials {
         display: flex;
         flex-direction: column;
