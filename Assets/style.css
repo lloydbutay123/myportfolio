@@ -11,6 +11,9 @@
     --primary1 : hsl(181, 68%, 48%, 20%);
     --request-form : hsl(247, 75%, 5%, 5%);
 }
+* {
+    font-family: myFont;
+}
 
 /* NAVBAR SECTION */
 
@@ -22,12 +25,17 @@
 }
 .navbar {
     border-bottom: 2px solid gray; 
+
+}
+.main-row {
+    background-color: var(--secondary20);
 }
 .navbar-nav > li {
     display: flex;
     margin-left:10px;
     margin-right:10px;
     align-items: center;
+    font-weight: bold;
 }
 .fa-phone-volume {
     color: #5640fa;
@@ -45,6 +53,9 @@
 
 /* MAIN SECTION  */
 
+main {
+    background-color: var(--secondary20);
+}
 .main-text > .btn {
     background-color: #27CBCE;
     color: white;
@@ -133,12 +144,7 @@ hr.hr {
 }
 .form-control {
     font-size: 12px;
-}
 
-p {
-    font-size: 12.8px;
-    font-family: myFont, sans-serif;  
-    color: black;
 }
 .section-title > h2 {
     font-family: h2Font, sans-serif;  
@@ -153,10 +159,7 @@ p {
 }
 .services-item > h6 {
     font-family: h2Font, sans-serif;  
-    
-}
-.contact-form {
-    font-family: myFont, sans-serif;  
+
 }
 .contacts {
     background-color: #713EDA;
@@ -179,13 +182,13 @@ p {
 .map {
     border-radius: 10px;
     width: 100%;
-    height: 250px;
+    height: 270px;
 }
 .socials {
     background-color: var(--secondary20);;
     border-radius: 10px;
     width: 100%;
-    height: 250px;
+    height: 270px;
     padding: 2em;
 }
 .header {
@@ -247,6 +250,10 @@ hr.footer {
         justify-content: center;
         text-align: center;
     }
+    p {
+        font-size: 12px;
+    }
+
     .about {
         display: flex;
         align-items: center;
