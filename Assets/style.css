@@ -75,6 +75,8 @@ a {
 }
 .main-text > h1 {
     font-size: 100pt;
+    position: relative;
+    z-index: 100;
 }
 .center-text {
     background-color: var(--secondary20);
@@ -87,7 +89,21 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 10ch;
+    height: 10vh;
+    z-index: 1;
+
+}
+.main-text {
+    position: relative;
+}
+.child-one {
+    height: 20px;
+    width: 122%;
+    background-color: #713EDA;
+    position: absolute;
+    top: 41%;
+    left: 36%;
+
 }
 
 /* TRAININGS SECTION */
@@ -98,8 +114,6 @@ a {
     background-color: var(--secondary20);
     padding: 3em;
     align-items: center;
-
-
 }
 .sections-link {
     text-decoration: none;
@@ -107,6 +121,10 @@ a {
 }
 .trainings-title {
     color: #713EDA;
+}
+.trainings-item > h6 {
+    font-family: h2Font, sans-serif;  
+    
 }
 
 
@@ -117,7 +135,10 @@ a {
     border-radius: 10%;
     margin-bottom: 10%;
 }
-
+.about-item > h6 {
+    font-family: h2Font, sans-serif;  
+    
+}
 
 hr.hr {
     border: 7px solid #7DF9FF;
@@ -152,11 +173,6 @@ hr.hr {
 
 /* CONTACT SECTION */
 
-.contact-form {
-    background-color: #7DF9FF;
-    border-radius: 10px;
-    padding: 2rem;
-}
 
 .main-text > h1 {
     font-family: h2Font;
@@ -172,18 +188,15 @@ hr.hr {
 .section-title > h2 {
     font-family: h2Font, sans-serif;  
 }
-.about-item > h6 {
-    font-family: h2Font, sans-serif;  
-    
-}
-.trainings-item > h6 {
-    font-family: h2Font, sans-serif;  
-    
-}
 .services-item > h6 {
     font-family: h2Font, sans-serif;  
 
 }
+
+
+/* CONTACTS FOOTER SECTION */
+
+
 .contacts {
     background-color: #713EDA;
     border-radius: 10px;
@@ -201,6 +214,11 @@ hr.hr {
 }
 .contact-item > p {
     font-size: 15px;
+}
+.contact-form {
+    background-color: #7DF9FF;
+    border-radius: 10px;
+    padding: 2rem;
 }
 .map {
     border-radius: 10px;
@@ -269,6 +287,8 @@ hr.footer {
 .underline {
     text-decoration: underline;
 }
+
+
 
 
 @media screen and (max-width:768px) {
