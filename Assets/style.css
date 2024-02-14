@@ -73,10 +73,24 @@
 a {
     cursor: pointer;
 }
+.main-text > h1 {
+    font-size: 100pt;
+}
+.center-text {
+    background-color: var(--secondary20);
+    color: #713EDA ;
+    
+}
 
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 10ch;
+}
 
 /* TRAININGS SECTION */
-
 
 .trainings-item {
     display: flex;
@@ -99,18 +113,25 @@ a {
 /* ABOUT SECTION */
 
 .about-img > img {
-    width: 40%;
-    border-radius: 20%;
+    width: 70%;
+    border-radius: 10%;
     margin-bottom: 10%;
 }
 
-.about-text {
-    color:#713EDA;
-}
+
 hr.hr {
     border: 7px solid #7DF9FF;
     border-radius: 5px;
   }
+  .about-btn > a > .hireme-btn {
+    background-color: #713EDA;
+    color: white;
+  }
+
+.about-btn > .download-btn {
+  background-color:#27CBCE;
+  color: white;
+}
 
 /* SERVICES SECTION */
 
@@ -140,6 +161,9 @@ hr.hr {
 .main-text > h1 {
     font-family: h2Font;
 
+}
+.main-text > h1  span {
+    font-family: h2Font;
 }
 .form-control {
     font-size: 12px;
@@ -290,6 +314,9 @@ hr.footer {
         display: flex;
         justify-content: center;
 
+    }
+    .main-text > h1 {
+        font-size: 50pt;
     }
 
 }
