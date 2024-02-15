@@ -66,6 +66,7 @@ a.nav-link:hover {
 }
 .fa-bars {
     color: #713EDA;
+    font-size: 30px;
 }
 button.navbar-toggler {
     border: 0;
