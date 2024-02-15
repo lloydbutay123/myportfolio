@@ -27,8 +27,8 @@
     position: relative;
 }
 .navbar {
-    border-bottom: 2px solid gray;
     transition: transform 0.2s; 
+    background-color: #7DF9FF ;
 }
 .navbar-nav > li {
     display: flex;
@@ -48,10 +48,23 @@
 }
 .nav-item:hover {
     background-color: #713EDA;
+ 
+}
+a.nav-link:hover {
+    color: #7DF9FF;
 }
 .nav--hidden {
     transform: translateY(calc(-1 * var(--nav-height)));
     box-shadow: none;
+}
+.navbar-toggler-icon {
+    color: #713EDA;
+}
+.fa-bars {
+    color: #713EDA;
+}
+button.navbar-toggler {
+    border: 0;
 }
 
 /* MAIN SECTION  */
@@ -153,7 +166,7 @@ hr.hr {
   }
 
 .about-btn > .download-btn {
-  background-color:#27CBCE;
+  background-color:#713EDA;
   color: white;
   border-radius: 0;
 }
