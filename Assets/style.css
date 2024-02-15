@@ -17,6 +17,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.section-title {
+    text-transform: uppercase;
+}
+
 
 /* NAVBAR SECTION */
 
@@ -312,6 +316,9 @@ hr.footer {
 }
 .underline {
     text-decoration: underline;
+}
+.fa-heart {
+    color: #713EDA;
 }
 
 
