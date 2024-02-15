@@ -27,7 +27,8 @@
     position: relative;
 }
 .navbar {
-    border-bottom: 2px solid gray; 
+    border-bottom: 2px solid gray;
+    transition: transform 0.2s; 
 }
 .navbar-nav > li {
     display: flex;
@@ -47,6 +48,10 @@
 }
 .nav-item:hover {
     background-color: #713EDA;
+}
+.nav--hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+    box-shadow: none;
 }
 
 /* MAIN SECTION  */
