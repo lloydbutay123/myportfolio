@@ -153,6 +153,7 @@ hr.hr {
   border-radius: 0;
 }
 
+
 /* SERVICES SECTION */
 
 .icon {
@@ -188,6 +189,21 @@ hr.hr {
 .services-item > h6 {
     font-family: h2Font, sans-serif;  
 
+}
+
+
+/* PROJECT SECTION */
+
+.demo-button > a > .btn-violet {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left:80%;
+    background-color: #713EDA;
+    color: white;
+}
+.product-body {
+    position: relative;
 }
 
 
@@ -330,6 +346,7 @@ hr.footer {
     .main-text > h1 {
         font-size: 100pt;
     }
+
 
 }
 
