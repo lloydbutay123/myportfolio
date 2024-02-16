@@ -248,9 +248,11 @@ hr.hr {
 }
 .resume-img {
     height: 100vh;
-    background-image: url(./images/cover2.png);
+    background-image: url(./images/cover2.jpg);
     background-size: cover;
+    padding: 3rem;
 }
+
 
 
 /* CONTACTS FOOTER SECTION */
@@ -401,7 +403,7 @@ hr.footer {
         margin-bottom: 2rem;
     }
     .resume-content {
-        display: inline-block;
+        display: block;
     }
 
 }
