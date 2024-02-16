@@ -221,6 +221,32 @@ hr.hr {
     position: relative;
 }
 
+/* RESUME SECTION */
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   
+}
+.resume-row {
+    border-bottom: 3px solid #7DF9FF;
+}
+.resume-icon {
+    margin-right: auto;
+    color: #1c2c84;
+}
+.resume-title {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 2rem;
+}
+
+.content-right {
+    display: flex;
+    justify-content: start;
+}
+
 
 /* CONTACTS FOOTER SECTION */
 
@@ -364,7 +390,11 @@ hr.footer {
     .main-text > h1 {
         font-size: 100pt;
     }
-
+    .resume-title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
 
 }
 
