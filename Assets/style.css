@@ -231,6 +231,7 @@ hr.hr {
 }
 .resume-row {
     border-bottom: 3px solid #7DF9FF;
+    padding-bottom: 2rem;
 }
 .resume-icon {
     margin-right: auto;
@@ -245,12 +246,6 @@ hr.hr {
 .content-right {
     display: flex;
     justify-content: start;
-}
-.resume-img {
-    height: 100vh;
-    background-image: url(./images/cover2.jpg);
-    background-size: cover;
-    padding: 3rem;
 }
 
 
