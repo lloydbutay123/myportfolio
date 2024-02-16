@@ -400,6 +400,9 @@ hr.footer {
         justify-content: center;
         margin-bottom: 2rem;
     }
+    .resume-content {
+        display: inline-block;
+    }
 
 }
 
