@@ -42,16 +42,16 @@
     font-weight: bold;
 }
 .fa-phone-volume {
-    color: #713EDA;
+    color: #4e4efa;
 }
 .fa-message {
-    color: #713EDA;
+    color: #4e4efa;
 }
 .fa-link {
-    color: #713EDA;
+    color: #4e4efa;
 }
 .nav-item:hover {
-    background-color: #713EDA;
+    background-color: #4e4efa;
  
 }
 a.nav-link:hover {
@@ -62,10 +62,10 @@ a.nav-link:hover {
     box-shadow: none;
 }
 .navbar-toggler-icon {
-    color: #713EDA;
+    color: #4e4efa;
 }
 .fa-bars {
-    color: #713EDA;
+    color: #4e4efa;
     font-size: 30px;
 }
 button.navbar-toggler {
@@ -77,16 +77,8 @@ button.navbar-toggler {
 .main {
     background-color: #7DF9FF;
 }
-.main-text > .btn {
-    background-color: #713EDA;
-    color: white;
-}
 .main-text > .first-text {
-    color: #713EDA;
-}
-.main-text > .btn:hover {
-    background-color:#31245C;
-    color: white;
+    color: #4e4efa;
 
 }
 .main-img > img {
@@ -102,7 +94,7 @@ a {
 }
 .center-text {
     background-color: var(--secondary20);
-    color: #713EDA ;
+    color: center-text ;
     
 }
 
@@ -121,7 +113,7 @@ a {
 .child-one {
     height: 20px;
     width: 122%;
-    background-color: #713EDA;
+    background-color: #4e4efa ;
     position: absolute;
     top: 41%;
     left: 36%;
@@ -133,16 +125,16 @@ a {
 .trainings-item {
     display: flex;
     flex-direction: column;
-    background-color: var(--secondary20);
+    background-color: var(--primary1);
     padding: 3em;
     align-items: center;
 }
 .sections-link {
     text-decoration: none;
-    color: #713EDA;
+    color: #4e4efa;
 }
 .trainings-title {
-    color: #713EDA;
+    color: #4e4efa;
 }
 .trainings-item > h6 {
     font-family: h2Font, sans-serif;  
@@ -165,13 +157,13 @@ hr.hr {
     border: 7px solid #7DF9FF;
   }
   .about-btn > a > .hireme-btn {
-    background-color: #713EDA;
+    background-color: #4e4efa;
     color: white;
     border-radius: 0;
   }
 
 .about-btn > .download-btn {
-  background-color:#713EDA;
+  background-color:#4e4efa;
   color: white;
   border-radius: 0;
 }
@@ -184,7 +176,7 @@ hr.hr {
     width: auto;
     height: auto;
     font-size: 3rem;
-    color: #713EDA;
+    color: #4e4efa;
 }
 .services-item {
     background-color: var(--primary1);
@@ -222,7 +214,7 @@ hr.hr {
     position: absolute;
     top: 50%;
     left:80%;
-    background-color: #713EDA;
+    background-color: #4e4efa;
     color: white;
 }
 .product-body {
@@ -234,7 +226,7 @@ hr.hr {
 
 
 .contacts {
-    background-color: #713EDA;
+    background-color: #4e4efa;
 
 }
 .contact-item > .icon {
@@ -242,7 +234,7 @@ hr.hr {
     color: white;
 }
 .contact-item {
-    background-color:#713EDA ;
+    background-color :#713EDA ;
     padding: 1rem;
     height: 100%;
 }
@@ -304,7 +296,7 @@ h4 > span {
     justify-content: space-around;
 }
 .fa-brands {
-    color: #713EDA;
+    color: #4e4efa;
 }
 
 
