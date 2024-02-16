@@ -246,6 +246,11 @@ hr.hr {
     display: flex;
     justify-content: start;
 }
+.resume-img {
+    height: 100vh;
+    background-image: url(./images/cover2.png);
+    background-size: cover;
+}
 
 
 /* CONTACTS FOOTER SECTION */
