@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion:no-preference ) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
 @font-face {
     font-family: myFont ;
     src: url(./Poppins/Poppins-Light.ttf);
@@ -23,7 +29,9 @@
 
 
 /* NAVBAR SECTION */
-
+.nav-div {
+    padding: 10px;
+}
 .mylogo {
     display: flex;
     height: 50px;
@@ -339,7 +347,7 @@ hr.footer {
     text-decoration: underline;
 }
 .fa-heart {
-    color: #713EDA;
+    color: #1c2c84;
 }
 
 
@@ -352,6 +360,7 @@ hr.footer {
         align-content: center;
         justify-content: center;
         text-align: center;
+        padding-top: 3rem;
     }
     p {
         font-size: 12px;
@@ -389,9 +398,7 @@ hr.footer {
         justify-content: center;
 
     }
-    .main-text > h1 {
-        font-size: 100pt;
-    }
+   
     .resume-title {
         display: flex;
         justify-content: center;
