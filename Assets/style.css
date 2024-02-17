@@ -252,6 +252,9 @@ hr.hr {
     display: flex;
     justify-content: start;
 }
+.resume-cover {
+    padding: 25px 50px 75px;
+}
 
 
 
