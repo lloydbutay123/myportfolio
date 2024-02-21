@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./Assets/style.css" />
   <link rel="stylesheet" href="./Assets/css/bootstrap.css" ></link>
   <script src="https://kit.fontawesome.com/bf2129cb26.js" crossorigin="anonymous"></script>
-  <script src="./Assets/js/bootstrap.js" ></script>
+
   <style>
     body {
       --nav-height: 100px
@@ -34,8 +34,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
           </li>
-          <li class="nav-item"> 
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Works
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://lloydbutay123.github.io/login-and-registration-form/">Login and Signup form</a></li>
+              <li><a class="dropdown-item" href="https://jlnb-jquery-chatbot.netlify.app/">jQuery Chatbot</a></li>
+              <li><a class="dropdown-item" href="https://jlnb-gallery.netlify.app/">Gallery</a></li>    
+            </ul>
           </li>
           <li class="nav-item"> 
             <a class="nav-link" href="#resume">Resume</a>
@@ -268,7 +275,7 @@
         </div>
       </div>
       <div class="row justify-content-center mb-5">
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
           <div class="product-item shadow-lg h-100">
             <div class="product-img">
               <img src="./Assets/images/projects/image.png" class="img-fluid card-img-top" alt="project1">
@@ -286,7 +293,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
           <div class="product-item shadow-lg h-100">
             <div class="product-img">
               <img src="./Assets/images/projects/image (1).png" class="img-fluid card-img-top" alt="project2">
@@ -304,7 +311,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
           <div class="product-item shadow-lg h-100">
             <div class="product-img">
               <img src="./Assets/images/projects/image (2).png" class="img-fluid card-img-top" alt="project3">
@@ -495,6 +502,7 @@
 
 
   <script src="script.js"></script>
+  <script src="./Assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
