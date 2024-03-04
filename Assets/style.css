@@ -27,12 +27,7 @@
     text-transform: uppercase;
 }
 
-.trainings-item:hover, .services-item:hover {
-    transform: scale(1.10);
-    
-}
-
-.product-item:hover {
+.trainings-item:hover, .product-item:hover {
     transform: scale(1.05);
     
 }
